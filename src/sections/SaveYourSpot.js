@@ -41,6 +41,7 @@ const SaveYourSpot = () => {
         { Attribute: 'mx_Monthly_Budget', Value: form.budget },
         { Attribute: 'Source', Value: 'Ruturaj Zest Landing Page' },
         { Attribute: 'SearchBy', Value: 'Phone' },
+        { Attribute: 'Ad Name' , Value: 'Facebook - KP Launch Ad'},
       ];
 
       const { response, result } = await submitLeadSquaredLead(payload);
